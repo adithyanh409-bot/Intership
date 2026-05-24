@@ -6,7 +6,7 @@ import math
 data = pd.read_csv("KNN_Dataset.csv")
 
 x = data[["Temperature"]]
-y = data["Fuel_Consumption"]
+y = data[["Fuel_Consumption"]]
 
 model = KNeighborsRegressor(n_neighbors=3)
 model.fit(x, y)
