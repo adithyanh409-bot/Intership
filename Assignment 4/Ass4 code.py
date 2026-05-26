@@ -14,7 +14,7 @@ X = data[["Type_encoded","Air temperature [K]","Process temperature [K]","Rotati
 
 Y = data["Machine failure"]
 
-model = LogisticRegression(max_iter=1000)
+model = LogisticRegression()
 
 model.fit(X, Y)
 
