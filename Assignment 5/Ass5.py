@@ -1,8 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
-
-# Load dataset
+
 data = pd.read_csv("Breast_cancer_data.csv")
 
 label_encoder = LabelEncoder()
